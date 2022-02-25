@@ -8,7 +8,7 @@ The authentication token is obtained via the Flomta application admin interface.
 
 example query:
 
-```$ curl -s https://api.flomta.eu/building?id=7834fnkds -H "X-API-TOKEN: my-secret-api-token" ```
+```$ curl -s https://api.flomta.eu/building/{buildingId} -H "X-API-TOKEN: my-secret-api-token" ```
 
 Would result a json result similar to :
 
@@ -16,7 +16,7 @@ Would result a json result similar to :
 {
   "success": true,
   "data": {
-    "id": "7834fnkds",
+    "id": "{buildingId}",
     "name": "Demo house",
     "short_name": "demo-house"
   }
@@ -28,7 +28,7 @@ Would result a json result similar to :
 
 #### Query
 
-`https://api.flomta.eu/building/apartments?id={buildingId}`
+`https://api.flomta.eu/building/apartments/{buildingId}`
 
 #### Result
 
@@ -56,7 +56,7 @@ Would result a json result similar to :
 
 #### Query
 
-`https://api.flomta.eu/apartment?id={apartmentId}`
+`https://api.flomta.eu/apartment/{apartmentId}`
 
 #### Result
 
@@ -76,7 +76,7 @@ Would result a json result similar to :
 
 #### Query
 
-`https://api.flomta.eu/apartment/meters?id={apartmentId}`
+`https://api.flomta.eu/apartment/meters/{apartmentId}`
 
 #### Result
 
