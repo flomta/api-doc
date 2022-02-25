@@ -52,11 +52,11 @@ Would result a json result similar to :
 
 ## apartment
 
-####query
+###query
 
 `https://api.flomta.eu/apartment?id={apartmentId}`
 
-####result
+###result
 
 ```
 {
@@ -72,11 +72,11 @@ Would result a json result similar to :
 
 ## apartment/meters
 
-####query
+###query
 
 `https://api.flomta.eu/apartment/meters?id={apartmentId}`
 
-####result
+###result
 
 ```
 {
