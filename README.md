@@ -4,6 +4,8 @@ Flomta application API documentation
 # basic query and authentication
 Authentication is obtained via http-header X-API-TOKEN
 
+The authentication token is obtained via the Flomta application admin interface. NB! the authentication token is to be used for back-end server-to-server queries only! 
+
 example query:
 
 ```$ curl -s https://api.flomta.eu/building?id=7834fnkds -H "X-API-TOKEN: my-secret-api-token" ```
